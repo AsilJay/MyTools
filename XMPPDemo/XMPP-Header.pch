@@ -1,0 +1,18 @@
+//
+//  XMPP-Header.pch
+//  XMPPDemo
+//
+//  Created by 邵佳杰 on 2017/11/6.
+//  Copyright © 2017年 邵佳杰. All rights reserved.
+//
+
+#ifndef XMPP_Header_pch
+#define XMPP_Header_pch
+
+#import <XMPPFramework/XMPPFramework.h>
+#import "MBProgressHUD.h"
+#import "XMPPManager.h"
+#import "JJTools.h"
+
+
+#endif /* XMPP_Header_pch */

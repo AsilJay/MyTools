@@ -23,13 +23,13 @@
 - (instancetype)init {
     if (self = [super init]) {
         XDMessageViewController *messageVC = [[XDMessageViewController alloc] init];
-        [self addChildViewController:messageVC withTitle:@"消息" withImage:nil selectedImage:nil isEmbeddedInNavigationController:YES];
+        [self addChildViewController:messageVC withTitle:@"消息" withImage:[UIImage imageNamed:@"friends"] selectedImage:nil isEmbeddedInNavigationController:YES];
         
         XDFriendsViewController *friendsVC = [[XDFriendsViewController alloc] init];
-        [self addChildViewController:friendsVC withTitle:@"联系人" withImage:nil selectedImage:nil isEmbeddedInNavigationController:YES];
+        [self addChildViewController:friendsVC withTitle:@"联系人" withImage:[UIImage imageNamed:@"Wechat"] selectedImage:nil isEmbeddedInNavigationController:YES];
         
         XDCircleViewController *circleVC = [[XDCircleViewController alloc] init];
-        [self addChildViewController:circleVC withTitle:@"动态" withImage:nil selectedImage:nil isEmbeddedInNavigationController:YES];
+        [self addChildViewController:circleVC withTitle:@"动态" withImage:[UIImage imageNamed:@"circle"] selectedImage:nil isEmbeddedInNavigationController:YES];
         
         UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         LoginRegisterController *loginVC = [storyBoard instantiateViewControllerWithIdentifier:@"Login"];

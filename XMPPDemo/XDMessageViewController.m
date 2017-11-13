@@ -23,7 +23,6 @@
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
 
-    [[BMHttpTool sharedInstance] uploadWithPath:<#(NSString *)#> params:<#(NSDictionary *)#> files:<#(NSDictionary *)#> success:<#^(id response)success#> failure:<#^(NSError *error)failure#>]
 }
 
 - (void)didReceiveMemoryWarning {

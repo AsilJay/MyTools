@@ -13,7 +13,7 @@
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    self.tintColor = [UIColor colorWithHexString:@"22ff33" alpha:1.0];
+    self.tintColor = [UIColor colorWithHexString:@"1390d1" alpha:1.0];
     for (UIControl *tabBarButton in self.subviews) {
         if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
             [tabBarButton addTarget:self action:@selector(tabBarButtonClick:) forControlEvents:UIControlEventTouchUpInside];
